@@ -1,0 +1,89 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?65d1d54ae0a7758b1e1fa875d760902d") format("truetype"),
+url("./flaticon.woff?65d1d54ae0a7758b1e1fa875d760902d") format("woff"),
+url("./flaticon.woff2?65d1d54ae0a7758b1e1fa875d760902d") format("woff2"),
+url("./flaticon.eot?65d1d54ae0a7758b1e1fa875d760902d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?65d1d54ae0a7758b1e1fa875d760902d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "conversation": "\f101",
+    "message": "\f102",
+    "podium": "\f103",
+    "target": "\f104",
+    "puzzle-piece": "\f105",
+    "work-process": "\f106",
+    "search-engine": "\f107",
+    "handshake": "\f108",
+    "hospital-sign": "\f109",
+    "framework": "\f10a",
+    "hospital": "\f10b",
+    "focus": "\f10c",
+    "growth": "\f10d",
+    "growth-1": "\f10e",
+    "bullhorn": "\f10f",
+    "internet": "\f110",
+);
+
+.flaticon-conversation:before {
+    content: map-get($flaticon-map, "conversation");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-podium:before {
+    content: map-get($flaticon-map, "podium");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}
+.flaticon-puzzle-piece:before {
+    content: map-get($flaticon-map, "puzzle-piece");
+}
+.flaticon-work-process:before {
+    content: map-get($flaticon-map, "work-process");
+}
+.flaticon-search-engine:before {
+    content: map-get($flaticon-map, "search-engine");
+}
+.flaticon-handshake:before {
+    content: map-get($flaticon-map, "handshake");
+}
+.flaticon-hospital-sign:before {
+    content: map-get($flaticon-map, "hospital-sign");
+}
+.flaticon-framework:before {
+    content: map-get($flaticon-map, "framework");
+}
+.flaticon-hospital:before {
+    content: map-get($flaticon-map, "hospital");
+}
+.flaticon-focus:before {
+    content: map-get($flaticon-map, "focus");
+}
+.flaticon-growth:before {
+    content: map-get($flaticon-map, "growth");
+}
+.flaticon-growth-1:before {
+    content: map-get($flaticon-map, "growth-1");
+}
+.flaticon-bullhorn:before {
+    content: map-get($flaticon-map, "bullhorn");
+}
+.flaticon-internet:before {
+    content: map-get($flaticon-map, "internet");
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "flaticon_web";
+    src: url("./flaticon_web.ttf?733bcf71be653abf7b5c22767799afc9") format("truetype"),
+url("./flaticon_web.woff?733bcf71be653abf7b5c22767799afc9") format("woff"),
+url("./flaticon_web.woff2?733bcf71be653abf7b5c22767799afc9") format("woff2"),
+url("./flaticon_web.eot?733bcf71be653abf7b5c22767799afc9#iefix") format("embedded-opentype"),
+url("./flaticon_web.svg?733bcf71be653abf7b5c22767799afc9#flaticon_web") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_web !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-001-hiring:before {
+    content: "\f101";
+}
+.flaticon-002-research:before {
+    content: "\f102";
+}
+.flaticon-003-agreement:before {
+    content: "\f103";
+}
+.flaticon-004-relationship:before {
+    content: "\f104";
+}
+.flaticon-005-target:before {
+    content: "\f105";
+}
+.flaticon-006-linkedin:before {
+    content: "\f106";
+}

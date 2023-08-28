@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?65d1d54ae0a7758b1e1fa875d760902d") format("truetype"),
+url("./flaticon.woff?65d1d54ae0a7758b1e1fa875d760902d") format("woff"),
+url("./flaticon.woff2?65d1d54ae0a7758b1e1fa875d760902d") format("woff2"),
+url("./flaticon.eot?65d1d54ae0a7758b1e1fa875d760902d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?65d1d54ae0a7758b1e1fa875d760902d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-conversation:before {
+    content: "\f101";
+}
+.flaticon-message:before {
+    content: "\f102";
+}
+.flaticon-podium:before {
+    content: "\f103";
+}
+.flaticon-target:before {
+    content: "\f104";
+}
+.flaticon-puzzle-piece:before {
+    content: "\f105";
+}
+.flaticon-work-process:before {
+    content: "\f106";
+}
+.flaticon-search-engine:before {
+    content: "\f107";
+}
+.flaticon-handshake:before {
+    content: "\f108";
+}
+.flaticon-hospital-sign:before {
+    content: "\f109";
+}
+.flaticon-framework:before {
+    content: "\f10a";
+}
+.flaticon-hospital:before {
+    content: "\f10b";
+}
+.flaticon-focus:before {
+    content: "\f10c";
+}
+.flaticon-growth:before {
+    content: "\f10d";
+}
+.flaticon-growth-1:before {
+    content: "\f10e";
+}
+.flaticon-bullhorn:before {
+    content: "\f10f";
+}
+.flaticon-internet:before {
+    content: "\f110";
+}

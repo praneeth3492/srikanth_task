@@ -1,0 +1,49 @@
+$flaticon_web-font: "flaticon_web";
+
+@font-face {
+    font-family: $flaticon_web-font;
+    src: url("./flaticon_web.ttf?733bcf71be653abf7b5c22767799afc9") format("truetype"),
+url("./flaticon_web.woff?733bcf71be653abf7b5c22767799afc9") format("woff"),
+url("./flaticon_web.woff2?733bcf71be653abf7b5c22767799afc9") format("woff2"),
+url("./flaticon_web.eot?733bcf71be653abf7b5c22767799afc9#iefix") format("embedded-opentype"),
+url("./flaticon_web.svg?733bcf71be653abf7b5c22767799afc9#flaticon_web") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_web !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_web-map: (
+    "001-hiring": "\f101",
+    "002-research": "\f102",
+    "003-agreement": "\f103",
+    "004-relationship": "\f104",
+    "005-target": "\f105",
+    "006-linkedin": "\f106",
+);
+
+.flaticon-001-hiring:before {
+    content: map-get($flaticon_web-map, "001-hiring");
+}
+.flaticon-002-research:before {
+    content: map-get($flaticon_web-map, "002-research");
+}
+.flaticon-003-agreement:before {
+    content: map-get($flaticon_web-map, "003-agreement");
+}
+.flaticon-004-relationship:before {
+    content: map-get($flaticon_web-map, "004-relationship");
+}
+.flaticon-005-target:before {
+    content: map-get($flaticon_web-map, "005-target");
+}
+.flaticon-006-linkedin:before {
+    content: map-get($flaticon_web-map, "006-linkedin");
+}
